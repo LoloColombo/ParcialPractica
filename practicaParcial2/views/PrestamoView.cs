@@ -12,5 +12,13 @@ namespace views
         {
             Console.WriteLine(text);    
         }
+
+        public static int selectPrestamo()
+        {
+            Console.WriteLine(" Que prestamo quiere seleccionar?");
+            int index = int.Parse(Console.ReadLine());
+            return index;
+        }
+
     }
 }
